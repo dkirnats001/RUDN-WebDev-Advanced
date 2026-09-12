@@ -25,7 +25,7 @@ function App() {
       <main className={styles.board}>
         <NewCardForm />
         <div className={styles.columns}>
-          <BoardColumn cards={[]} />
+          <BoardColumn cards={cards} />
         </div>
       </main>
     </div>
